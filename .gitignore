@@ -1,0 +1,24 @@
+# Keil MDK 编译临时文件
+Objects/
+Listings/
+*.axf
+*.hex
+*.bin
+*.elf
+*.o
+*.d
+*.crf
+*.dep
+*.map
+*.sct
+*.bak
+*.uvgui.*
+# VSCode缓存
+.vscode/
+# Windows系统垃圾文件
+Thumbs.db
+.DS_Store
+# Word临时缓存
+~$*.docx
+# 屏蔽全部第三方工具安装包、驱动压缩包
+软件包/
